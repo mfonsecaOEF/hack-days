@@ -40,3 +40,32 @@
 - Step 2: Pull the current NDC and one or two finance-policy signals.
 - Step 3: Re-score the five categories.
 - Step 4: Keep the card to one screen and only include claims you can source.
+
+## Improvements and Integration Proposal
+
+### Improvements for the Prototype
+- Add a standard evidence template so every card includes the same minimum source set: one OEF context source, one national policy source, one finance source, and one governance or inclusion source.
+- Separate `finance alignment` into two sub-parts: `instrument fit` and `public-finance context`. This would make it easier to distinguish between "there is money in the system" and "this project actually matches a realistic funding pathway."
+- Add a simple `implementation readiness` field to complement governance. This would capture whether there is a clear owner, timeline, operating model, and maintenance plan.
+- Build a short library of project archetypes that can be reused across countries, for example: NbS flood resilience, municipal building electrification, distributed solar, public transport electrification, waste methane reduction.
+- Add a comparison mode so two cards can be viewed side by side and used to discuss tradeoffs across countries, project types, or funding narratives.
+
+### How This Could Connect to OEF's Current Work
+- **HIAP / Meed+ (Chile):** After HIAP prioritizes mitigation actions, this card could be used as a next-step framing layer to evaluate which shortlisted actions have the strongest policy and finance narrative, especially for Chile-specific opportunities.
+- **BPJP / Brazil:** If BPJP Phase 3 moves toward project funding or concept notes, this card could help translate prioritized actions into stronger project narratives by linking them to Brazil's NDC, finance context, and governance requirements.
+- **NBS Project Preparation / Porto Alegre:** This is one of the clearest places to test the method. The card could become an additional output inside the project builder flow, helping explain why a project is not only locally relevant but also aligned with policy, finance, and inclusion expectations.
+- **Journey Navigator / Finance-Ready Projects:** The card could become a lightweight bridge between action prioritization and finance-ready project preparation, especially in the "Finance" stage where OEF is still shaping what the workflow should look like.
+
+### Practical Proposal for Integration
+- Use the Finance Alignment Card as an **intermediate artifact** between prioritized actions and full concept notes.
+- Position it as a low-effort filter that answers: "Which of these project ideas is easiest to justify to funders right now, and what is still missing?"
+- In practice, the workflow could look like this:
+  - HIAP or another prioritization tool identifies promising actions
+  - the Finance Alignment Card is generated for the top 3 actions
+  - the strongest card becomes the candidate for deeper project-preparation work
+  - the gaps identified in the card become inputs for concept note development
+
+### Why This Could Be Useful
+- It would help OEF make project preparation more explicit without requiring a full finance module immediately.
+- It would create a structured way to connect technical climate analysis with policy alignment, finance positioning, and inclusive governance.
+- It could also help clarify where OEF already has strong value and where more evidence, partners, or implementation detail are still needed before calling something finance-ready.
